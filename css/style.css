@@ -1,0 +1,42 @@
+html, body { height: 100%; margin: 0; padding: 0; font-family: 'Lato', sans-serif; }
+#map {
+    height: 100%;
+    width: 75%;
+    float: left;
+}
+aside {
+    float: right;
+    height: 100%;
+    width: 25%;
+    overflow: scroll;
+    padding: 2%;
+}
+.page {
+    position: absolute;
+    z-index: 100;
+    bottom: 35px;
+    right: 55px;
+}
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+#floating-panel {
+    background-color: #fff;
+    border: 1px solid #999;
+    left: 25%;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    z-index: 5;
+}
